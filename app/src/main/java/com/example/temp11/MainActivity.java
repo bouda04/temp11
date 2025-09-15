@@ -24,5 +24,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         TextView tv = findViewById(R.id.tvHello);
+        tv.setText("Hello World!");
+
     }
 }
